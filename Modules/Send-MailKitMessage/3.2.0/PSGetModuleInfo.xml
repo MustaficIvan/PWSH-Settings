@@ -1,0 +1,135 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Send-MailKitMessage</S>
+      <S N="Version">3.2.0-preview1</S>
+      <S N="Type">Module</S>
+      <S N="Description">A replacement for PowerShell's obsolete Send-MailMessage implementing the Microsoft-recommended MailKit library.</S>
+      <S N="Author">Eric Austin</S>
+      <S N="CompanyName">austineric</S>
+      <S N="Copyright">(c) Eric Austin. All rights reserved.</S>
+      <DT N="PublishedDate">2021-11-08T17:19:30+01:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-01-21T15:56:15.2854535+01:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/austineric/Send-MailKitMessage/blob/master/LICENSE.txt</URI>
+      <URI N="ProjectUri">https://github.com/austineric/Send-MailKitMessage</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>email</S>
+          <S>mailkit</S>
+          <S>send-mailmessage</S>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Send-MailKitMessage</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Send-MailKitMessage</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">https://github.com/austineric/Send-MailKitMessage#releases</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) Eric Austin. All rights reserved.</S>
+          <S N="description">A replacement for PowerShell's obsolete Send-MailMessage implementing the Microsoft-recommended MailKit library.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">https://github.com/austineric/Send-MailKitMessage#releases</S>
+          <S N="isLatestVersion">False</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">67</S>
+          <S N="downloadCount">2335</S>
+          <S N="packageSize">2833709</S>
+          <S N="published">08/11/2021 17:19:30 +01:00</S>
+          <S N="created">08/11/2021 17:19:30 +01:00</S>
+          <S N="lastUpdated">19/01/2022 18:54:58 +01:00</S>
+          <S N="tags">email mailkit send-mailmessage PSModule PSCmdlet_Send-MailKitMessage PSCommand_Send-MailKitMessage PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-01-19T18:54:58Z</S>
+          <S N="NormalizedVersion">3.2.0-preview1</S>
+          <S N="Authors">Eric Austin</S>
+          <S N="IsPrerelease">true</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Send-MailKitMessage.nuspec|Send-MailKitMessage.csproj|Send_MailKitMessage.deps.json|Send_MailKitMessage.pdb|System.Data.DataSetExtensions.dll|System.Numerics.Vectors.dll|System.Runtime.CompilerServices.Unsafe.dll|System.Security.Cryptography.Pkcs.dll|BouncyCastle.Crypto.dll|Send_MailKitMessage.dll|System.Buffers.dll|System.Memory.dll|System.Reflection.TypeExtensions.dll|System.Security.Cryptography.Cng.dll|System.Text.Encoding.CodePages.dll|MailKit.dll|Send-MailKitMessage.psd1|MimeKit.dll</S>
+          <S N="GUID">2facf1b9-cb30-43dd-9613-67b838d47832</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\ivanm\OneDrive\Documents\PowerShell\Modules\Send-MailKitMessage\3.2.0</S>
+    </MS>
+  </Obj>
+</Objs>

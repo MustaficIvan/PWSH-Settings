@@ -1,0 +1,161 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Common</S>
+      <Version N="Version">1.1.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Common module for PowerShell</S>
+      <S N="Author">Manuel</S>
+      <S N="CompanyName">DoCode</S>
+      <S N="Copyright">(c) 2020 mtb.me. All rights reserved.</S>
+      <DT N="PublishedDate">2020-03-09T22:25:33+01:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-02-09T18:33:16.5274797+01:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <Nil N="LicenseUri" />
+      <Nil N="ProjectUri" />
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSModule</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>New-DynamicParameter</S>
+                <S>Get-Base64FromValue</S>
+                <S>Add-ReadmeFile</S>
+                <S>fn_add_readmefile_edit</S>
+                <S>Get-Checksum</S>
+                <S>New-DirectoryAndEnter</S>
+                <S>Search-ReplaceInFile</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>New-DynamicParameter</S>
+                <S>Get-Base64FromValue</S>
+                <S>Add-ReadmeFile</S>
+                <S>fn_add_readmefile_edit</S>
+                <S>Get-Checksum</S>
+                <S>New-DirectoryAndEnter</S>
+                <S>Search-ReplaceInFile</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">SmartLogging</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:SmartLogging</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">(c) 2020 mtb.me. All rights reserved.</S>
+          <S N="description">Common module for PowerShell</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">6451</S>
+          <S N="downloadCount">6477</S>
+          <S N="packageSize">20172</S>
+          <S N="published">09/03/2020 22:25:33 +01:00</S>
+          <S N="created">09/03/2020 22:25:33 +01:00</S>
+          <S N="lastUpdated">09/02/2022 17:09:43 +01:00</S>
+          <S N="tags">PSModule PSFunction_New-DynamicParameter PSCommand_New-DynamicParameter PSFunction_Get-Base64FromValue PSCommand_Get-Base64FromValue PSFunction_Add-ReadmeFile PSCommand_Add-ReadmeFile PSFunction_fn_add_readmefile_edit PSCommand_fn_add_readmefile_edit PSFunction_Get-Checksum PSCommand_Get-Checksum PSFunction_New-DirectoryAndEnter PSCommand_New-DirectoryAndEnter PSFunction_Search-ReplaceInFile PSCommand_Search-ReplaceInFile PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-02-09T17:09:43Z</S>
+          <S N="NormalizedVersion">1.1.1</S>
+          <S N="Authors">Manuel</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Common.nuspec|Common.psd1|Common.psm1</S>
+          <S N="GUID">8F72EE64-90FE-4479-853C-B0FA45EB3CA0</S>
+          <S N="CompanyName">mtb.me</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\ivanm\OneDrive\Documents\PowerShell\Modules\Common\1.1.1</S>
+    </MS>
+  </Obj>
+</Objs>
