@@ -28,8 +28,8 @@
           "type": "root"
         },
         {
-          "background": "#FF9248",
-          "foreground": "#2d3436",
+          "background": "#f0ba46",
+          "foreground": "#120d0a",
           "powerline_symbol": "",
           "properties": {
             "enable_hyperlink": true,
