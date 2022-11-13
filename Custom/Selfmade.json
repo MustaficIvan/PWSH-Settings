@@ -59,8 +59,8 @@
         {
           "type": "executiontime",
           "style": "diamond",
-          "foreground": "#ffffff",
-          "background": "#83769c",
+          "foreground": "#F6E7CB",
+          "background": "#2F7554",
           "trailing_diamond": "\ue0b4",
           "template": "\ufa1e{{ .FormattedMs }}\u2800",
           "properties": {
