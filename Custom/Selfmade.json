@@ -9,7 +9,7 @@
         {
           "type": "shell",
           "style": "diamond",
-          "foreground": "#ffffff",
+          "foreground": "#e4e4c2",
           "background": "#0077c2",
           "leading_diamond": "\u256d\u2500\ue0b6",
           "template": "\uf120 {{ .Name }} "
@@ -28,8 +28,8 @@
           "type": "path",
           "style": "powerline",
           "powerline_symbol": "\ue0b0",
-          "foreground": "#120d0a",
-          "background": "#f0ba46",
+          "foreground": "#1a0c04",
+          "background": "#e6b856",
           "template": " \uf07b\uf553{{ .Path }} ",
           "properties": {
             "folder_icon": " \uf07b ",
@@ -119,7 +119,7 @@
           "type": "go",
           "style": "diamond",
           "foreground": "#06aad5",
-          "background": "#ffffff",
+          "background": "#e6b856",
           "leading_diamond": " \ue0b6",
           "trailing_diamond": "\ue0b4",
           "template": "\ufcd1 {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}"
@@ -199,8 +199,8 @@
         {
           "type": "os",
           "style": "diamond",
-          "foreground": "#222222",
-          "background": "#b2bec3",
+          "foreground": "#F6E7CB",
+          "background": "#2F7554",
           "leading_diamond": " \ue0b6",
           "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}<#262626> \ue0b2</>",
           "properties": {
@@ -213,12 +213,12 @@
           "type": "battery",
           "style": "diamond",
           "invert_powerline": true,
-          "foreground": "#262626",
-          "background": "#f36943",
+          "foreground": "#327d7c",
+          "background": "#b5e46b",
           "background_templates": [
-            "{{if eq \"Charging\" .State.String}}#b8e994{{end}}",
-            "{{if eq \"Discharging\" .State.String}}#fff34e{{end}}",
-            "{{if eq \"Full\" .State.String}}#33DD2D{{end}}"
+            "{{if eq \"Charging\" .State.String}}#C6EBC9{{end}}",
+            "{{if eq \"Discharging\" .State.String}}#C6EBC9{{end}}",
+            "{{if eq \"Full\" .State.String}}#C6EBC9{{end}}"
           ],
           "leading_diamond": "\ue0b2",
           "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 <#262626>\ue0b2</>",
@@ -232,8 +232,8 @@
           "type": "time",
           "style": "diamond",
           "invert_powerline": true,
-          "foreground": "#ffffff",
-          "background": "#40c4ff",
+          "foreground": "#E8DED2",
+          "background": "#056676",
           "leading_diamond": "\ue0b2",
           "trailing_diamond": "\ue0b4",
           "template": " \uf5ef {{ .CurrentDate | date .Format }} ",
