@@ -1,6 +1,6 @@
 # Module
 import-Module 'Terminal-Icons'
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH/newer.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "C:\Users\Ivan\scoop\apps\oh-my-posh\current\themes\takuya.omp.json" | Invoke-Expression
 Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
