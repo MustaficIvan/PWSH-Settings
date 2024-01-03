@@ -232,9 +232,9 @@
           ],
           "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}\uf295 <#056676>\ue0b2</>",
           "properties": {
-            "charged_icon": "\uf240 ",
-            "charging_icon": "\uf1e6 ",
-            "discharging_icon": "\ue234 "
+            "charged_icon": "\udb80\udc84 ",
+            "charging_icon": "\udb80\udc84 ",
+            "discharging_icon": "\udb80\udc80 "
           }
         },
         {
