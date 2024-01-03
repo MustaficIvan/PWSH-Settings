@@ -7,15 +7,19 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 
 function Copy-Path { $pwd.Path | clip }
 function Get-ComPort { Get-CimInstance -ClassName Win32_PnPEntity | where {$_.Name -like "*(COM*)*"} | Sort Name | Format-Table Name }
+function Get-Info { Get-Content $PROFILE.CurrentUserCurrentHost }
+function Stop-Task { param([string]$p1) Stop-Process -Name $p1 }
 
 # Alias
-Set-Alias -Name grep -Value findstr
+Set-Alias -Name grep -Value Select-String
 Set-Alias -Name ll -Value ls
-Set-Alias -Name stop -Value Stop-Process
+Set-Alias -Name stop -Value Stop-Task 
 Set-Alias -Name ci -value Copy-Item
 New-Alias -Name path -value Copy-Path
 Set-Alias -Name extract -value Expand-Archive
 Set-Alias -Name com -value Get-ComPort
+Set-Alias -Name task -value Get-Process
+Set-Alias -Name info -value Get-Info
 
 Set-Alias -Name py -value python
 Set-Alias -Name p -value python
