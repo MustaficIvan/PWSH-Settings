@@ -30,16 +30,16 @@
             "style": "full"
           },
           "style": "powerline",
-          "template": " \uf07b{{ .Path }} ",
+          "template": " \uf07b {{ .Path }} ",
           "type": "path"
         },
-                {
+        {
           "type": "executiontime",
           "style": "diamond",
           "foreground": "#F6E7CB",
           "background": "#2F7554",
           "trailing_diamond": "\ue0b4",
-          "template": " \ueba2 {{ .FormattedMs }}\u2800",
+          "template": " \udb86\udd9f {{ .FormattedMs }}\u2800",
           "properties": {
             "style": "roundrock",
             "threshold": 0
@@ -84,7 +84,6 @@
           "trailing_diamond": "\ue0b4",
           "type": "node"
         },
-
         {
           "type": "node",
           "style": "diamond",
